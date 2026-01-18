@@ -1,33 +1,35 @@
 [
   {
     "id": 1,
-    "title": "Fitness - Fitness Booking Platform",
-    "description": "Fitness is a modern fitness and training platform that allows users to explore fitness classes, book training slots, communicate via forums, and pay securely. Trainers can manage their profiles, add available slots, and track bookings. Admins have full control over the system with analytics and management tools",
+    "title": "TIJARAH - Admin Console",
+    "description": "Developed a Laravel-based Admin Console for the TIJARA Business Management App, used to control and manage core application operations. Implemented role-based access control including Super Admin, Marketing, Data View, Email View, Mobile View, Tutorial, and App Settings modules. Also designed and developed the app landing page using Tailwind CSS.",
     "technologies": [
       "HTML",
-      "Tailwind CSS",
+      "CSS",
+      "Boostrap",
       "javaScript",
-      "React",
+      "JQuery",
+      "Ajax",
+      "DataTables",
       "Firebase",
-      "Node.js",
-      "Express",
-      "MongoDB",
-      "JWT",
-      "TanStackQuery",
-      "Stripe"
+      "PHP",
+      "Laravel",
+      "MySQL"
     ],
-    "image": "https://i.postimg.cc/XNsC64GN/Screenshot-2025-11-11-204435.png",
-    "liveLink": "https://whimsical-praline-dd388c.netlify.app/",
-    "githubLink-client": "https://github.com/ratulislam46/fitness-client",
+    "image": "https://i.postimg.cc/MGc39Q7k/image.png",
+    "liveLink": "https://tj.somocha.com/",
+    "appLink": "https://play.google.com/store/apps/details?id=com.ragory.tijarah.software",
     "challenges": [
-      "Developed a role-based access system forAdmin, Trainer, and Member to manage permissions securely",
-      "Implemented trainer booking, slot availability and Stripe payment integration for seamless user experience."
+      "This project is confidential; therefore, source code and admin login credentials cannot be shared."
+    ],
+    "note": [
+      "This project is confidential; therefore, source code and admin login credentials cannot be shared."
     ]
   },
   {
     "id": 6,
-    "title": "RideX - Ride Sharing Platform",
-    "description": "RideX is a smart ride-sharing platform that connects riders and passengers in real-time. It provides seamless trip management, intelligent ride tracking, rider earnings overview, and secure authentication. Designed with a clean and responsive interface for a smooth user experience.",
+    "title": "ELOUISA WEB APPLICATION",
+    "description": "Designed and developed a full-featured web application for Movies, TV Shows, Radio, and Live TV, handling everything from UI design to backend development using Laravel. Built a fully dynamic, multi-role Admin Dashboard to manage and control the entire platform, along with RESTful APIs for mobile and app integration. ",
     "technologies": [
       "Next.js",
       "Tailwind CSS",
@@ -49,6 +51,9 @@
       "Developed a real-time ride tracking system that allows users and riders to view each other’s live location on Google Maps.",
       "Implemented secure authentication and authorization using Firebase and JWT for multiple user roles (Admin, Rider, User).",
       "Created Rider Dashboard featuring available rides access, live tracking, and ride history for efficient management."
+    ],
+    "note": [
+      "Admin dashbojard preview access — Email: admin@example.com, Password: 12345678; Website preview access — Email: connectwithsohag@gmail.com, Password: 12345678"
     ]
   },
   {
