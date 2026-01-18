@@ -29,128 +29,54 @@
   {
     "id": 6,
     "title": "ELOUISA WEB APPLICATION",
-    "description": "Designed and developed a full-featured web application for Movies, TV Shows, Radio, and Live TV, handling everything from UI design to backend development using Laravel. Built a fully dynamic, multi-role Admin Dashboard to manage and control the entire platform, along with RESTful APIs for mobile and app integration. ",
+    "description": "Designed and developed a full-featured web application for Movies, TV Shows, Radio, and Live TV, handling everything from UI design to backend development using Laravel. Built a fully dynamic, multi-role Admin Dashboard to manage and control the entire platform, along with RESTful APIs for mobile and app integration. [Note: For preview purposes, admin dashboard access is available using Email: admin@example.com and Password: 12345678. Website preview access is available using Email: connectwithsohag@gmail.com and Password: 12345678.]",
     "technologies": [
-      "Next.js",
-      "Tailwind CSS",
-      "Firebase",
-      "MongoDB",
-      "Node.js",
-      "Express.js",
-      "JWT",
-      "Axios",
-      "GSAP",
-      "Shadcn UI",
-      "Socket.io"
+      "HTML",
+      "CSS",
+      "Bootstrap 5",
+      "JavaScript",
+      "JQuery",
+      "PHP",
+      "Laravel",
+      "REST API",
+      "MySQL"
     ],
-    "image": "https://i.postimg.cc/85cR89zx/Screenshot-2025-11-11-200826.pngg",
-    "liveLink": "https://ridex-ride-sharing.vercel.app",
-    "githubLink-client": "https://github.com/rubel6610/RideX-Frontend",
-    "githubLink-server": "https://github.com/rubel6610/ridex-backend",
+    "image": "https://i.postimg.cc/JnSD1F0X/elo.png",
+    "liveLink": "https://kanalelouisa.com/home",
     "challenges": [
-      "Developed a real-time ride tracking system that allows users and riders to view each other’s live location on Google Maps.",
-      "Implemented secure authentication and authorization using Firebase and JWT for multiple user roles (Admin, Rider, User).",
-      "Created Rider Dashboard featuring available rides access, live tracking, and ride history for efficient management."
-    ],
-    "note": [
-      "Admin dashbojard preview access — Email: admin@example.com, Password: 12345678; Website preview access — Email: connectwithsohag@gmail.com, Password: 12345678"
+      "Designed and implemented a complex content management system to handle Movies, TV Shows, Radio, and Live TV within a single platform.",
+      "Developed a dynamic multi-role Admin Dashboard with permission-based access control for secure and efficient platform management.",
+      "Optimized database structure and API responses to ensure fast loading times and smooth performance across web and mobile devices.",
+      "Ensured seamless integration between the web platform and mobile applications using RESTful APIs.",
+      "Maintained security best practices for authentication, authorization, and sensitive data handling."
     ]
   },
   {
     "id": 2,
-    "title": "Profast - Delivery Tracker App",
-    "description": "A full-stack parcel delivery management system where users can create parcels, riders can manage deliveries, and admins can track the overall system efficiently.",
+    "title": "MULTI VENDOR E-COMMERCE WEBSITE (Imaji-fashion, Korighor, Emela)",
+    "description": "Designed and developed a scalable Multi Vendor E-commerce ecosystem using Laravel, serving multiple brands (Imaji-fashion, Korighor, Emela) from a single backend system. Built a secure, RESTful API architecture enabling multiple front-end applications to operate independently on the same backend. Implemented vendor management, product handling, order processing, and role-based access control. Backend source code is confidential and therefore not publicly shared.",
     "technologies": [
       "HTML",
-      "Tailwind CSS",
-      "React",
-      "Firebase",
-      "javaScript",
-      "MongoDB",
-      "Node.js",
-      "Express",
-      "Stripe"
+      "CSS",
+      "Bootstrap 5",
+      "JavaScript",
+      "JQuery",
+      "Ajax",
+      "PHP",
+      "Laravel",
+      "REST API",
+      "MySQL"
     ],
-    "image": "https://i.postimg.cc/m2ZxF4gg/Profast.png",
-    "liveLink": "https://email-pass-auth-12a30.web.app/",
-    "githubLink-client": "https://github.com/ratulislam46/profast-client",
+    "image": "https://i.postimg.cc/FzNRsk3S/3.png",
+    "githubLink-client": "https://github.com/engineersohag/Imajifashion",
     "challenges": [
-      "Implemented role-based access and task assignments for Admin, Rider, and User.",
-      "Enabled real-time parcel tracking and status updates."
-    ]
-  },
-  {
-    "id": 3,
-    "title": "Open Journal",
-    "description": "Excited to launch my new blog platform where users can browse, save their favorite posts, and enjoy a clean UI with dark mode support. Built using React, MongoDB, and Firebase Hosting. Would love to hear your thoughts!",
-    "technologies": [
-      "HTML",
-      "Tailwind CSS",
-      "React",
-      "javaScript",
-      "Firebase",
-      "MongoDB",
-      "Firebase",
-      "Node.js",
-      "Express"
-    ],
-    "image": "https://i.postimg.cc/wj8xSGVt/open-journal.png",
-    "liveLink": "https://wondrous-paprenjak-d5a5de.netlify.app/",
-    "githubLink-client": "https://github.com/ratulislam46/openjournal-client",
-    "githubLink-server": "https://github.com/ratulislam46/openjournal-server",
-    "challenges": [
-      "Developed blog management features including adding blogs, writing reviews, andwishlist functionality.",
-      "Secure authentication with JWT for different user roles",
-      "Implemented dark mode/light mode toggle for improved user experience."
-    ]
-  },
-  {
-    "id": 4,
-    "title": "Lawyer Appoinment",
-    "description": "A web application where users can easily book appointments with lawyers online. This project is built using React, Tailwind CSS, and other modern tools to ensure a smooth and responsive user experience.",
-    "technologies": [
-      "HTML",
-      "Tailwind CSS",
-      "React",
-      "javaScript",
-      "EmailJS",
-      "Mamba Ui",
-      "DaisyUI"
-    ],
-    "image": "https://i.postimg.cc/gkw4wRpt/Screenshot-2025-08-24-115843.png",
-    "liveLink": "https://resilient-nasturtium-d2ddd2.netlify.app/",
-    "githubLink-client": "https://github.com/ratulislam46/lawyer-appoinment",
-    "githubLink-server": "#",
-    "challenges": [
-      "DPrevented multiple bookings for the same lawyer, with all booking data stored locally.",
-      "Implemented a chart displaying each lawyer’s earnings based on their bookings."
-    ]
-  },
-  {
-    "id": 5,
-    "title": "Task Nest",
-    "description": "TaskNest is a full-stack task management web application that allows users to register, log in, and manage their tasks with an interactive and responsive UI. Built with React, Firebase, TailwindCSS, and more, it demonstrates both frontend development and integration with backend services.",
-    "technologies": [
-      "HTML",
-      "Tailwind CSS",
-      "React",
-      "javaScript",
-      "Typewriter",
-      "EmailJS",
-      "MongoDB",
-      "Firebase",
-      "Node.js",
-      "Express"
-    ],
-    "image": "https://i.postimg.cc/d19Ybp3X/Task-Nest.png",
-    "liveLink": "https://chipper-banoffee-6641c3.netlify.app/",
-    "githubLink-client": "https://github.com/ratulislam46/task-nest",
-    "githubLink-server": "https://github.com/ratulislam46/task-nest-server",
-    "challenges": [
-      "Built a task management system with real-time updates using Firebase Firestore, allowing users to create, edit, and delete tasks instantly.",
-      "Designed a fully responsive and visually appealing interface using TailwindCSS for optimal user experience across devices.",
-      "Designed a fully responsive and visually appealing interface using TailwindCSS for optimal user experience across devices.",
-      ""
+      "Designed a single, scalable backend architecture capable of serving multiple independent brands (Imaji-fashion, Korighor, Emela) without data conflict.",
+      "Implemented a secure multi-vendor system with role-based access control for Super Admin, Vendor, and Staff to ensure proper permission management.",
+      "Developed RESTful APIs that allow multiple front-end applications to operate independently while sharing the same backend services.",
+      "Handled complex product, category, and inventory management across different vendors within one ecosystem.",
+      "Ensured secure order processing, payment workflow handling, and vendor-wise order segregation.",
+      "Optimized database queries and relationships to maintain high performance as the number of vendors, products, and orders scales."
     ]
   }
+  
 ]
