@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "title": "SG ONLINE TUTOR - AI-Driven Automated Tuition Platform",
+    "description": "Engineered an intelligent autonomous AI Agent powered by OpenAI to dynamically match users with courses and automate registration processes. Designed an advanced pro-rated pricing matrix integrated with Stripe Billing for automated next-month recurring cycles. Developed a time-triggered 9-stage automated marketing automation system utilizing Laravel Queues and configured Laravel Crons for dynamic session scheduling connected with Zoom and WhatsApp APIs.",
+    "technologies": ["PHP", "Laravel", "React.js", "OpenAI Assistant API", "Stripe Recurring Billing", "Laravel Queues & Crons", "Zoom API", "WhatsApp Webhooks", "Tailwind CSS"],
+    "image": "https://i.postimg.cc/MGc39Q7k/image.png",
+    "liveLink": "#",
+    "challenges": [
+      "Architected an autonomous AI workflow utilizing OpenAI Assistants for lead capture and course routing.",
+      "Implemented a complex pro-rated financial billing matrix for midway student enrollments.",
+      "Optimized background worker processes via Laravel Queues to reliably execute a 9-stage sequence of automated marketing emails without degrading core server performance."
+    ]
+  },
+  {
+    "id": 2,
+    "title": "ATHLETERATED - High-Scale Sports Platform & Legacy Migration",
+    "description": "Executed a complex architectural migration and reverse engineering of a legacy Django backend to a modern, robust Laravel ecosystem. Architected a secure 5-tier role-based access control (RBAC) structure. Built complex live sports scoring calculation engines capable of processing automated data ingestion via CSV uploads and OCR image parsing. Integrated a unified global payment layer using Stripe and PayPal along with real-time push notifications using Firebase.",
+    "technologies": ["PHP", "Laravel", "Django (Legacy Migration)", "OCR Technology", "Stripe", "PayPal", "Firebase Realtime DB", "Bootstrap 5"],
+    "image": "https://i.postimg.cc/JnSD1F0X/elo.png",
+    "liveLink": "#",
+    "challenges": [
+      "Successfully reverse-engineered app behaviors from a legacy Django codebase into optimized Laravel design patterns.",
+      "Designed and optimized mathematical calculation models for high-scale, real-time sports scoring pipelines.",
+      "Integrated OCR technology into backend jobs to securely parse text and ingest large batches of unstructured data from game images."
+    ]
+  },
+  {
+    "id": 3,
+    "title": "TIJARAH - Admin Console",
+    "description": "Engineered a robust enterprise-grade Admin Console for the TIJARA Business Management application. Designed and deployed a secure, granular 7-tier role-based access control (RBAC) architecture to govern critical administration features. Built dynamic dashboard analytics layers and handled high-density dataset processing utilizing Server-side DataTables and optimized MySQL queries.",
+    "technologies": ["PHP", "Laravel", "MySQL", "Tailwind CSS", "Firebase", "AJAX", "DataTables", "jQuery"],
+    "image": "https://i.postimg.cc/MGc39Q7k/image.png",
+    "liveLink": "https://tj.somocha.com/",
+    "appLink": "https://play.google.com/store/apps/details?id=com.ragory.tijarah.software",
+    "challenges": [
+      "Designed a highly strict database schema and secure endpoints to manage operations for a production mobile app.",
+      "Enforced tight security constraints for Super Admin, Marketing, and Financial access points while protecting sensitive data records."
+    ]
+  },
+  {
+    "id": 4,
+    "title": "ELOUISA WEB APPLICATION",
+    "description": "Designed and developed a highly scalable content delivery web application architecture for cross-platform Movies, TV Shows, Radio, and Live TV. Built a robust multi-role admin engine with custom permission guards and implemented clean, optimized RESTful APIs to maintain seamless, high-performance web and mobile views with minimal loading latencies.",
+    "technologies": ["PHP", "Laravel", "RESTful APIs", "MySQL", "Bootstrap 5", "JavaScript", "jQuery", "AJAX"],
+    "image": "https://i.postimg.cc/JnSD1F0X/elo.png",
+    "liveLink": "https://kanalelouisa.com/home",
+    "challenges": [
+      "Optimized complex database relations and caching mechanisms to handle high-frequency multimedia content indexing.",
+      "Developed secure, stateless JWT authentication and REST endpoints to achieve frictionless integration across mobile and web interfaces."
+    ]
+  }
+]

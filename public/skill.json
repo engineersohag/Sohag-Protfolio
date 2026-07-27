@@ -1,0 +1,224 @@
+[
+  {
+    "id": 1,
+    "title": "HTML5",
+    "description": "The standard markup language used to structure content on the web.",
+    "image": "https://img.icons8.com/color/96/html-5--v1.png",
+    "icon": "FaHtml5",
+    "category": "frontend"
+  },
+  {
+    "id": 2,
+    "title": "CSS3",
+    "description": "Used to style and design the look of web pages including layout and visual effects.",
+    "image": "https://img.icons8.com/color/96/css3.png",
+    "icon": "FaCss3Alt",
+    "category": "frontend"
+  },
+  {
+    "id": 3,
+    "title": "Bootstrap 5",
+    "description": "A component base CSS framework for rapidly building custom designs.",
+    "image": "/bootstrap.png",
+    "icon": "SiTailwindcss",
+    "category": "frontend"
+  },
+  {
+    "id": 4,
+    "title": "Tailwind CSS",
+    "description": "A utility-first CSS framework for rapidly building custom designs.",
+    "image": "https://img.icons8.com/color/96/tailwind_css.png",
+    "icon": "SiTailwindcss",
+    "category": "frontend"
+  },
+  {
+    "id": 5,
+    "title": "SASS",
+    "description": "A powerful CSS extension language (preprocessor) that enables variables, nested rules, and mixins.",
+    "image": "/sass.png",
+    "icon": "SiTailwindcss",
+    "category": "frontend"
+  },
+  {
+    "id": 6,
+    "title": "JavaScript",
+    "description": "A programming language that makes web pages interactive and dynamic.",
+    "image": "https://img.icons8.com/color/96/javascript--v1.png",
+    "icon": "FaJs",
+    "category": "frontend"
+  },
+  {
+    "id": 7,
+    "title": "React.js",
+    "description": "A JavaScript library for building fast and interactive user interfaces.",
+    "image": "https://img.icons8.com/color/96/react-native.png",
+    "icon": "FaReact",
+    "category": "frontend"
+  },
+  {
+    "id": 8,
+    "title": "JQuery",
+    "description": "A fast, small, and feature-rich JavaScript library designed to simplify HTML DOM tree traversal and event handling.",
+    "image": "/jquery.png",
+    "icon": "FaReact",
+    "category": "frontend"
+  },
+  {
+    "id": 9,
+    "title": "Ajax",
+    "description": "Asynchronous JavaScript and XML used to create dynamic, fast-loading web pages by exchanging data with servers in the background.",
+    "image": "/ajax.png",
+    "icon": "FaReact",
+    "category": "frontend"
+  },
+  {
+    "id": 10,
+    "title": "Json",
+    "description": "JavaScript Object Notation, a lightweight format for storing and transporting structured data between backend and frontend.",
+    "image": "/json.png",
+    "icon": "FaReact",
+    "category": "frontend"
+  },
+  {
+    "id": 11,
+    "title": "Datatables",
+    "description": "A highly flexible jQuery plugin used for adding advanced interaction controls, pagination, and instant searching to HTML tables.",
+    "image": "/datatable.png",
+    "icon": "FaReact",
+    "category": "frontend"
+  },
+  {
+    "id": 12,
+    "title": "PHP",
+    "description": "A widely-used server-side scripting language designed specifically for enterprise-grade web development.",
+    "image": "/php.png",
+    "icon": "SiNextdotjs",
+    "category": "backend"
+  },
+  {
+    "id": 13,
+    "title": "Laravel",
+    "description": "A robust PHP web framework featuring elegant syntax, built-in task scheduling, robust ORM, and secure authentication ecosystems.",
+    "image": "/laravel.png",
+    "category": "backend"
+  },
+  {
+    "id": 14,
+    "title": "Codeigniter",
+    "description": "A powerful and lightweight MVC PHP framework designed for developers who need a simple yet elegant toolkit to build full-featured applications.",
+    "image": "/codeignator.png",
+    "category": "backend"
+  },
+  {
+    "id": 15,
+    "title": "REST API",
+    "description": "Architectural style for designing networked applications using HTTP.",
+    "image": "https://i.postimg.cc/pdf6Ndsn/667-removebg-preview.png",
+    "category": "backend"
+  },
+  {
+    "id": 16,
+    "title": "MySQL",
+    "description": "A widely-used Relational Database Management System (RDBMS) utilizing SQL for complex data query handling.",
+    "image": "/mysql.png",
+    "category": "backend"
+  },
+  {
+    "id": 17,
+    "title": "PostgreSQL",
+    "description": "An advanced, enterprise-class open-source Relational Database (RDBMS) optimized for extensibility, indexing, and complex data relationships.",
+    "image": "/Postgresql_elephant.png",
+    "category": "backend"
+  },
+  {
+    "id": 18,
+    "title": "Firebase",
+    "description": "A Google-backed backend platform providing real-time databases, authentication layers, and scalable cloud infrastructure.",
+    "image": "https://img.icons8.com/color/96/firebase.png",
+    "category": "backend"
+  },
+  {
+    "id": 19,
+    "title": "JWT Auth",
+    "description": "Authentication system using JSON Web Tokens for secure access.",
+    "image": "https://i.postimg.cc/tC6dvMSs/images-1-removebg-preview.png",
+    "category": "backend"
+  },
+  {
+    "id": 20,
+    "title": "OpenAI API",
+    "description": "Integration of cutting-edge AI models to deploy autonomous AI Assistants and intelligent feature automations.",
+    "image": "https://img.icons8.com/color/96/openai.png",
+    "category": "backend"
+  },
+  {
+    "id": 21,
+    "title": "OCR Technology",
+    "description": "Optical Character Recognition systems integrated to parse text and digitize structured data from images and documents.",
+    "image": "https://img.icons8.com/color/96/ocr.png",
+    "category": "backend"
+  },
+  {
+    "id": 22,
+    "title": "Linux Cron Jobs",
+    "description": "Automated background task worker and scheduling manager engineered to handle high-frequency recurring server processes.",
+    "image": "https://img.icons8.com/color/96/linux.png",
+    "category": "backend"
+  },
+  {
+    "id": 23,
+    "title": "Git",
+    "description": "A distributed version control system for tracking code changes.",
+    "image": "https://img.icons8.com/color/96/git.png",
+    "category": "tools"
+  },
+  {
+    "id": 24,
+    "title": "GitHub",
+    "description": "A code hosting platform for version control and collaboration.",
+    "image": "https://img.icons8.com/ios-glyphs/90/000000/github.png",
+    "category": "tools"
+  },
+  {
+    "id": 25,
+    "title": "VS Code",
+    "description": "A lightweight but powerful source code editor by Microsoft.",
+    "image": "https://img.icons8.com/color/96/visual-studio-code-2019.png",
+    "category": "tools"
+  },
+  {
+    "id": 26,
+    "title": "Postman",
+    "description": "An API testing tool that helps developers interact with APIs.",
+    "image": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/external-postman-is-the-only-complete-api-development-environment-logo-color-tal-revivo.png",
+    "category": "tools"
+  },
+  {
+    "id": 27,
+    "title": "Figma",
+    "description": "Collaborative design tool for UI/UX and prototyping.",
+    "image": "https://cdn-icons-png.flaticon.com/512/5968/5968705.png",
+    "category": "tools"
+  },
+  {
+    "id": 28,
+    "title": "Netlify",
+    "description": "Cloud platform to build, deploy, and host modern web projects.",
+    "image": "https://i.postimg.cc/zfznBXJh/547d4e20-dd7e-11ee-b074-b5c8fe3ef189-netlify-light-removebg-preview.png",
+    "category": "tools"
+  },
+  {
+    "id": 29,
+    "title": "CPanel",
+    "description": "A comprehensive web hosting control panel used for managing servers, domains, databases, and application deployment pipelines.",
+    "image": "/cpnael.png",
+    "category": "tools"
+  },
+  {
+    "id": 30,
+    "title": "FTP Use",
+    "description": "File Transfer Protocol used for securely transferring and deploying application source code files to remote servers.",
+    "image": "/ftp.png",
+    "category": "tools"
+  }
+]
