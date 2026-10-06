@@ -1,28 +1,52 @@
 [
   {
     "id": 1,
-    "title": "SG ONLINE TUTOR - AI-Driven Automated Tuition Platform",
-    "description": "Engineered an intelligent autonomous AI Agent powered by OpenAI to dynamically match users with courses and automate registration processes. Designed an advanced pro-rated pricing matrix integrated with Stripe Billing for automated next-month recurring cycles. Developed a time-triggered 9-stage automated marketing automation system utilizing Laravel Queues and configured Laravel Crons for dynamic session scheduling connected with Zoom and WhatsApp APIs.",
-    "technologies": ["PHP", "Laravel", "React.js", "OpenAI Assistant API", "Stripe Recurring Billing", "Laravel Queues & Crons", "Zoom API", "WhatsApp Webhooks", "Tailwind CSS"],
-    "image": "https://i.postimg.cc/MGc39Q7k/image.png",
-    "liveLink": "#",
+    "title": "SG ONLINE TUTOR - AI-Driven Automated Tuition",
+    "description": "A fully automated, AI-driven tuition management ecosystem engineered to run educational operations with minimal manual intervention. Powered by OpenAI and WhatsApp-based admin control, the platform automates end-to-end course and session creation, instant Zoom meeting generation, user notifications, and behavior-triggered email marketing based on student activity.",
+    "technologies": [
+      "OpenAI Integration",
+      "WhatsApp Admin Control",
+      "PHP & Laravel",
+      "React.js",
+      "Zoom API Automation",
+      "Automated Session Creation",
+      "Email Marketing Automation",
+      "Workflow Automation"
+    ],
+    "image": "/project/SGOnlineTutor.png",
+    "liveLink": "https://sgonlinetutor.com/",
     "challenges": [
-      "Architected an autonomous AI workflow utilizing OpenAI Assistants for lead capture and course routing.",
-      "Implemented a complex pro-rated financial billing matrix for midway student enrollments.",
-      "Optimized background worker processes via Laravel Queues to reliably execute a 9-stage sequence of automated marketing emails without degrading core server performance."
+      "Integrated OpenAI to automate course generation, session scheduling, and intelligent curriculum workflows directly through WhatsApp administrative commands.",
+      "Built an automated Zoom meeting generation engine that instantly provisions class sessions and dispatches synchronized calendar links to enrolled students.",
+      "Engineered behavior-triggered email marketing pipelines that analyze student activity to recommend relevant courses and automate re-engagement.",
+      "Streamlined administrative operations into a zero-overhead ecosystem connecting WhatsApp webhooks, background queues, and automated learner notifications."
     ]
   },
   {
     "id": 2,
-    "title": "ATHLETERATED - High-Scale Sports Platform & Legacy Migration",
-    "description": "Executed a complex architectural migration and reverse engineering of a legacy Django backend to a modern, robust Laravel ecosystem. Architected a secure 5-tier role-based access control (RBAC) structure. Built complex live sports scoring calculation engines capable of processing automated data ingestion via CSV uploads and OCR image parsing. Integrated a unified global payment layer using Stripe and PayPal along with real-time push notifications using Firebase.",
-    "technologies": ["PHP", "Laravel", "Django (Legacy Migration)", "OCR Technology", "Stripe", "PayPal", "Firebase Realtime DB", "Bootstrap 5"],
-    "image": "https://i.postimg.cc/JnSD1F0X/elo.png",
-    "liveLink": "#",
+    "title": "AthleteRated - Sports Social Platform",
+    "description": "A production-grade sports networking ecosystem connecting athletes, coaches, teams, and organizations across web and mobile platforms. The system features real-time chat, interactive social feeds with 2,000+ active posts, team roster management, event scheduling, game scoring, badges, certifications, and multi-tier role-based workflows for subscription-paying users. Developed collaboratively as part of a 4-member engineering team, delivering high-reliability architecture and real-time community engagement.",
+    "technologies": [
+      "PHP",
+      "Laravel",
+      "MySQL",
+      "RESTful APIs",
+      "Firebase Realtime",
+      "Stripe Subscriptions",
+      "Real-Time Chat",
+      "Web & Mobile",
+      "2,000+ Posts",
+      "Paid Users",
+      "4-Developer Team"
+    ],
+    "image": "/project/AthleteRated.png",
+    "liveLink": "https://www.athleterated.com/",
+    "appLink": "https://play.google.com/store/apps/details?id=com.athleterated.athlete_rated&hl=en",
     "challenges": [
-      "Successfully reverse-engineered app behaviors from a legacy Django codebase into optimized Laravel design patterns.",
-      "Designed and optimized mathematical calculation models for high-scale, real-time sports scoring pipelines.",
-      "Integrated OCR technology into backend jobs to securely parse text and ingest large batches of unstructured data from game images."
+      "Collaborated within a 4-developer engineering team to build, optimize, and maintain a production web and mobile sports ecosystem supporting real paid subscribers.",
+      "Engineered real-time chat communication and high-engagement social feeds powering 2,000+ posts, comments, likes, shares, and user interactions.",
+      "Architected multi-tier role-based access control (RBAC) across distinct user roles for athletes, coaches, teams, and sports organizations.",
+      "Developed modular management engines for team roster invitations, leagues, events, game scoring pipelines, certifications, and badge achievements."
     ]
   },
   {
@@ -31,7 +55,6 @@
     "description": "Engineered a robust enterprise-grade Admin Console for the TIJARA Business Management application. Designed and deployed a secure, granular 7-tier role-based access control (RBAC) architecture to govern critical administration features. Built dynamic dashboard analytics layers and handled high-density dataset processing utilizing Server-side DataTables and optimized MySQL queries.",
     "technologies": ["PHP", "Laravel", "MySQL", "Tailwind CSS", "Firebase", "AJAX", "DataTables", "jQuery"],
     "image": "https://i.postimg.cc/MGc39Q7k/image.png",
-    "liveLink": "https://tj.somocha.com/",
     "appLink": "https://play.google.com/store/apps/details?id=com.ragory.tijarah.software",
     "challenges": [
       "Designed a highly strict database schema and secure endpoints to manage operations for a production mobile app.",
@@ -48,6 +71,30 @@
     "challenges": [
       "Optimized complex database relations and caching mechanisms to handle high-frequency multimedia content indexing.",
       "Developed secure, stateless JWT authentication and REST endpoints to achieve frictionless integration across mobile and web interfaces."
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Multi Skills Global - Visa Marketplace & Scoring Platform",
+    "description": "Multi Skills Global is a fully dynamic multi-vendor visa marketplace where partners and consultants offer specialized immigration services, while applicants browse, purchase, score, and track their visa applications through a centralized platform. Engineered with Laravel, MySQL, and modern JavaScript, the system integrates real-time visa scoring algorithms, end-to-end application tracking, multi-role dashboards, and SMS gateway notifications. It features extensive admin-controlled dynamic customization, allowing non-technical managers to configure UI colors, search placeholders, button styles, footer content, and dashboard menus without modifying source code.",
+    "technologies": [
+      "PHP & Laravel",
+      "MySQL",
+      "JavaScript",
+      "Multi-Vendor Marketplace",
+      "Visa Scoring System",
+      "Visa/Application Tracking",
+      "Multi-Role Platform",
+      "Dynamic Admin Control",
+      "SMS Gateway"
+    ],
+    "image": "/project/VisaScoring.png",
+    "liveLink": "https://multiskillsglobal.com/",
+    "challenges": [
+      "Architected a scalable multi-vendor visa marketplace enabling partners and consultants to publish immigration services while customers browse, procure, and fulfill applications centrally.",
+      "Engineered an intelligent visa scoring and eligibility assessment engine paired with real-time application lifecycle tracking to guide applicants through step-by-step processing.",
+      "Built a fully dynamic admin control framework empowering administrators to customize search placeholders, UI color palettes, button styles, footer layouts, and dashboard menus without source code changes.",
+      "Implemented granular multi-role authentication guards with role-specific dashboard views, alongside SMS gateway integration for automated milestone alerts and applicant notifications."
     ]
   }
 ]

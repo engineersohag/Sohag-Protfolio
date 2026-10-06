@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
+import { FaExternalLinkAlt, FaGithub, FaGooglePlay } from "react-icons/fa";
 import { FcViewDetails } from "react-icons/fc";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
@@ -18,7 +18,7 @@ export const DetailsButton = ({ onClick, className = '', ...props }) => {
   );
 };
 
-export const LiveButton = ({ href, className = '', ...props }) => {
+export const LiveButton = ({ href, className = '', children = 'Live Website', ...props }) => {
   return (
     <motion.a
       href={href}
@@ -29,7 +29,23 @@ export const LiveButton = ({ href, className = '', ...props }) => {
       whileTap={{ scale: 0.95 }}
       {...props}
     >
-      <FaExternalLinkAlt className="text-sm" /> Live
+      <FaExternalLinkAlt className="text-sm" /> {children}
+    </motion.a>
+  );
+};
+
+export const PlayStoreButton = ({ href, className = '', children = 'Google Play', ...props }) => {
+  return (
+    <motion.a
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={`btn btn-sm btn-outline btn-success flex items-center gap-2 text-xs ${className}`}
+      whileHover={{ scale: 1.08 }}
+      whileTap={{ scale: 0.95 }}
+      {...props}
+    >
+      <FaGooglePlay className="text-sm" /> {children}
     </motion.a>
   );
 };

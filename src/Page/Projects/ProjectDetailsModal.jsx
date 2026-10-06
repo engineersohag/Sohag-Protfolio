@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
+import { FaExternalLinkAlt, FaGithub, FaGooglePlay } from 'react-icons/fa';
 import { ImCancelCircle } from "react-icons/im";
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -115,7 +115,7 @@ const ProjectDetailsModal = ({ project, onClose }) => {
                             >
                                 <h3 className="text-lg font-semibold text-primary flex items-center gap-2">
                                     <span className="w-1 h-5 bg-primary rounded-full"></span>
-                                    Technologies
+                                    Technologies & Highlights
                                 </h3>
                                 <div className="flex flex-wrap gap-2">
                                     {project.technologies?.map((tech, i) => (
@@ -134,7 +134,7 @@ const ProjectDetailsModal = ({ project, onClose }) => {
                                 </div>
                             </motion.div>
 
-                            {/* Challenges */}
+                            {/* Challenges & Solutions */}
                             {project.challenges && project.challenges.length > 0 && (
                                 <motion.div
                                     initial={{ opacity: 0, y: 20 }}
@@ -144,7 +144,7 @@ const ProjectDetailsModal = ({ project, onClose }) => {
                                 >
                                     <h3 className="text-lg font-semibold text-primary flex items-center gap-2">
                                         <span className="w-1 h-5 bg-primary rounded-full"></span>
-                                        Challenges & Solutions
+                                        Key Highlights & Architecture
                                     </h3>
                                     <ul className="space-y-2">
                                         {project.challenges.map((challenge, index) => (
@@ -170,7 +170,7 @@ const ProjectDetailsModal = ({ project, onClose }) => {
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ delay: 0.8 }}
                             >
-                                {project.liveLink && (
+                                {project.liveLink && project.liveLink !== '#' && (
                                     <motion.a
                                         href={project.liveLink}
                                         target="_blank"
@@ -179,7 +179,19 @@ const ProjectDetailsModal = ({ project, onClose }) => {
                                         whileHover={{ scale: 1.05 }}
                                         whileTap={{ scale: 0.95 }}
                                     >
-                                        <FaExternalLinkAlt /> View Live
+                                        <FaExternalLinkAlt /> Live Website
+                                    </motion.a>
+                                )}
+                                {project.appLink && (
+                                    <motion.a
+                                        href={project.appLink}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="btn btn-sm md:btn-md btn-outline btn-success flex items-center gap-2"
+                                        whileHover={{ scale: 1.05 }}
+                                        whileTap={{ scale: 0.95 }}
+                                    >
+                                        <FaGooglePlay /> Google Play
                                     </motion.a>
                                 )}
                                 {githubClient && (
