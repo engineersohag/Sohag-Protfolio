@@ -1,29 +1,6 @@
 [
   {
     "id": 1,
-    "title": "SG ONLINE TUTOR - AI-Driven Automated Tuition",
-    "description": "A fully automated, AI-driven tuition management ecosystem engineered to run educational operations with minimal manual intervention. Powered by OpenAI and WhatsApp-based admin control, the platform automates end-to-end course and session creation, instant Zoom meeting generation, user notifications, and behavior-triggered email marketing based on student activity.",
-    "technologies": [
-      "OpenAI Integration",
-      "WhatsApp Admin Control",
-      "PHP & Laravel",
-      "React.js",
-      "Zoom API Automation",
-      "Automated Session Creation",
-      "Email Marketing Automation",
-      "Workflow Automation"
-    ],
-    "image": "/project/SGOnlineTutor.png",
-    "liveLink": "https://sgonlinetutor.com/",
-    "challenges": [
-      "Integrated OpenAI to automate course generation, session scheduling, and intelligent curriculum workflows directly through WhatsApp administrative commands.",
-      "Built an automated Zoom meeting generation engine that instantly provisions class sessions and dispatches synchronized calendar links to enrolled students.",
-      "Engineered behavior-triggered email marketing pipelines that analyze student activity to recommend relevant courses and automate re-engagement.",
-      "Streamlined administrative operations into a zero-overhead ecosystem connecting WhatsApp webhooks, background queues, and automated learner notifications."
-    ]
-  },
-  {
-    "id": 2,
     "title": "AthleteRated - Sports Social Platform",
     "description": "A production-grade sports networking ecosystem connecting athletes, coaches, teams, and organizations across web and mobile platforms. The system features real-time chat, interactive social feeds with 2,000+ active posts, team roster management, event scheduling, game scoring, badges, certifications, and multi-tier role-based workflows for subscription-paying users. Developed collaboratively as part of a 4-member engineering team, delivering high-reliability architecture and real-time community engagement.",
     "technologies": [
@@ -50,31 +27,7 @@
     ]
   },
   {
-    "id": 3,
-    "title": "TIJARAH - Admin Console",
-    "description": "Engineered a robust enterprise-grade Admin Console for the TIJARA Business Management application. Designed and deployed a secure, granular 7-tier role-based access control (RBAC) architecture to govern critical administration features. Built dynamic dashboard analytics layers and handled high-density dataset processing utilizing Server-side DataTables and optimized MySQL queries.",
-    "technologies": ["PHP", "Laravel", "MySQL", "Tailwind CSS", "Firebase", "AJAX", "DataTables", "jQuery"],
-    "image": "https://i.postimg.cc/MGc39Q7k/image.png",
-    "appLink": "https://play.google.com/store/apps/details?id=com.ragory.tijarah.software",
-    "challenges": [
-      "Designed a highly strict database schema and secure endpoints to manage operations for a production mobile app.",
-      "Enforced tight security constraints for Super Admin, Marketing, and Financial access points while protecting sensitive data records."
-    ]
-  },
-  {
-    "id": 4,
-    "title": "ELOUISA WEB APPLICATION",
-    "description": "Designed and developed a highly scalable content delivery web application architecture for cross-platform Movies, TV Shows, Radio, and Live TV. Built a robust multi-role admin engine with custom permission guards and implemented clean, optimized RESTful APIs to maintain seamless, high-performance web and mobile views with minimal loading latencies.",
-    "technologies": ["PHP", "Laravel", "RESTful APIs", "MySQL", "Bootstrap 5", "JavaScript", "jQuery", "AJAX"],
-    "image": "https://i.postimg.cc/JnSD1F0X/elo.png",
-    "liveLink": "https://kanalelouisa.com/home",
-    "challenges": [
-      "Optimized complex database relations and caching mechanisms to handle high-frequency multimedia content indexing.",
-      "Developed secure, stateless JWT authentication and REST endpoints to achieve frictionless integration across mobile and web interfaces."
-    ]
-  },
-  {
-    "id": 5,
+    "id": 2,
     "title": "Multi Skills Global - Visa Marketplace & Scoring Platform",
     "description": "Multi Skills Global is a fully dynamic multi-vendor visa marketplace where partners and consultants offer specialized immigration services, while applicants browse, purchase, score, and track their visa applications through a centralized platform. Engineered with Laravel, MySQL, and modern JavaScript, the system integrates real-time visa scoring algorithms, end-to-end application tracking, multi-role dashboards, and SMS gateway notifications. It features extensive admin-controlled dynamic customization, allowing non-technical managers to configure UI colors, search placeholders, button styles, footer content, and dashboard menus without modifying source code.",
     "technologies": [
@@ -95,6 +48,77 @@
       "Engineered an intelligent visa scoring and eligibility assessment engine paired with real-time application lifecycle tracking to guide applicants through step-by-step processing.",
       "Built a fully dynamic admin control framework empowering administrators to customize search placeholders, UI color palettes, button styles, footer layouts, and dashboard menus without source code changes.",
       "Implemented granular multi-role authentication guards with role-specific dashboard views, alongside SMS gateway integration for automated milestone alerts and applicant notifications."
+    ]
+  },
+  {
+    "id": 3,
+    "title": "SG ONLINE TUTOR - AI-Driven Automated Tuition",
+    "description": "A fully automated, AI-driven tuition management ecosystem engineered to run educational operations with minimal manual intervention. Powered by OpenAI and WhatsApp-based admin control, the platform automates end-to-end course and session creation, instant Zoom meeting generation, user notifications, and behavior-triggered email marketing based on student activity.",
+    "technologies": [
+      "OpenAI Integration",
+      "WhatsApp Admin Control",
+      "PHP & Laravel",
+      "React.js",
+      "Zoom API Automation",
+      "Automated Session Creation",
+      "Email Marketing Automation",
+      "Workflow Automation"
+    ],
+    "image": "/project/SGOnlineTutor.png",
+    "liveLink": "https://sgonlinetutor.com/",
+    "challenges": [
+      "Integrated OpenAI to automate course generation, session scheduling, and intelligent curriculum workflows directly through WhatsApp administrative commands.",
+      "Built an automated Zoom meeting generation engine that instantly provisions class sessions and dispatches synchronized calendar links to enrolled students.",
+      "Engineered behavior-triggered email marketing pipelines that analyze student activity to recommend relevant courses and automate re-engagement.",
+      "Streamlined administrative operations into a zero-overhead ecosystem connecting WhatsApp webhooks, background queues, and automated learner notifications."
+    ]
+  },
+  {
+    "id": 4,
+    "title": "SRNCON - Social Network & Multi-Vendor E-commerce Platform",
+    "description": "SRNCON is a comprehensive digital ecosystem merging an interactive social networking platform, long-form content publishing, and a multi-vendor international e-commerce marketplace. Users can create posts, discover content, like, comment, and share while participating in an engagement-driven reward economy where eligible social activities earn platform points. These accumulated reward points can be converted into USD and withdrawn through a structured payout workflow, directly monetizing genuine community engagement. Simultaneously, the platform powers global commerce through a multi-vendor store architecture featuring international product selling and dynamic multi-currency pricing.",
+    "technologies": [
+      "Social Networking Platform",
+      "Multi-Vendor E-commerce",
+      "User Reward System",
+      "Points to USD Conversion",
+      "Article & Content System",
+      "Multi-Currency Commerce",
+      "International Marketplace",
+      "Social Feed & Profiles",
+      "Seller Ecosystem"
+    ],
+    "image": "/project/srncon.png",
+    "liveLink": "https://srncon.com/",
+    "challenges": [
+      "Engineered an interactive social networking infrastructure featuring customizable user profiles, real-time activity feeds, post creation, and multifaceted engagement mechanics (likes, comments, and shares).",
+      "Architected an engagement-driven reward economy where user participation accumulates reward points redeemable for USD through a secure, structured withdrawal workflow.",
+      "Integrated an editorial long-form article and content publishing engine enabling users to discover, read, and interact with curated articles alongside the real-time social stream.",
+      "Developed a scalable multi-vendor international marketplace supporting vendor store management, seamless cart/checkout pipelines, and multi-currency pricing displays for global commerce."
+    ]
+  },
+  {
+    "id": 5,
+    "title": "ELOUISA WEB APPLICATION",
+    "description": "Designed and developed a highly scalable content delivery web application architecture for cross-platform Movies, TV Shows, Radio, and Live TV. Built a robust multi-role admin engine with custom permission guards and implemented clean, optimized RESTful APIs to maintain seamless, high-performance web and mobile views with minimal loading latencies.",
+    "technologies": ["PHP", "Laravel", "RESTful APIs", "MySQL", "Bootstrap 5", "JavaScript", "jQuery", "AJAX"],
+    "image": "https://i.postimg.cc/JnSD1F0X/elo.png",
+    "liveLink": "https://kanalelouisa.com/home",
+    "challenges": [
+      "Optimized complex database relations and caching mechanisms to handle high-frequency multimedia content indexing.",
+      "Developed secure, stateless JWT authentication and REST endpoints to achieve frictionless integration across mobile and web interfaces."
+    ]
+  },
+  {
+    "id": 6,
+    "title": "TIJARAH - Admin Console",
+    "description": "Engineered a robust enterprise-grade Admin Console for the TIJARA Business Management application. Designed and deployed a secure, granular 7-tier role-based access control (RBAC) architecture to govern critical administration features. Built dynamic dashboard analytics layers and handled high-density dataset processing utilizing Server-side DataTables and optimized MySQL queries.",
+    "technologies": ["PHP", "Laravel", "MySQL", "Tailwind CSS", "Firebase", "AJAX", "DataTables", "jQuery"],
+    "image": "https://i.postimg.cc/MGc39Q7k/image.png",
+    "appLink": "https://play.google.com/store/apps/details?id=com.ragory.tijarah.software",
+    "challenges": [
+      "Designed a highly strict database schema and secure endpoints to manage operations for a production mobile app.",
+      "Enforced tight security constraints for Super Admin, Marketing, and Financial access points while protecting sensitive data records."
     ]
   }
 ]
