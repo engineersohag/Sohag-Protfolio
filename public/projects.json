@@ -1,6 +1,45 @@
 [
   {
     "id": 1,
+    "title": "As Above Funding — AI-Powered Trading & Prop Firm Platform",
+    "description": "As Above Funding is a trading evaluation and funded-account platform that brings challenge purchases, trading-account provisioning, performance tracking, progression from evaluation to funded status, and payout requests into one application. It integrates Rithmic, WealthCharts, and Volumetrica Trading for supported trading accounts and synchronized trading data, alongside an AI-assisted trade review system and AIVA, the in-app AI chatbot. The platform also connects Sumsub for identity verification and KYC, Kingpay with NMI for payment processing, and Rise and Plaid within payout workflows. Built with Laravel, React.js, and MySQL, it runs on AWS with Docker-based infrastructure, Amazon S3 storage, and GitHub Actions CI/CD; merging develop into main triggers the configured automated production deployment pipeline.",
+    "technologies": [
+      "FinTech",
+      "Trading Technology",
+      "SaaS Platform",
+      "AI-Powered Application",
+      "Rithmic",
+      "WealthCharts",
+      "Volumetrica Trading",
+      "AI Trade Review",
+      "AIVA AI Chatbot",
+      "Sumsub KYC",
+      "Kingpay",
+      "NMI",
+      "Rise",
+      "Plaid",
+      "Laravel",
+      "React.js",
+      "MySQL",
+      "AWS",
+      "Docker",
+      "GitHub Actions",
+      "Amazon S3"
+    ],
+    "image": "/project/aaf.png",
+    "liveLink": "https://app.asabovefunding.com/",
+    "challenges": [
+      "Users purchase trading challenges, receive accounts through configured platform integrations, trade on their assigned accounts, and have trading data synchronized back to the application. Progression from evaluation to funded status and payout requests follow the applicable platform rules and workflows.",
+      "Integrated the Rithmic, WealthCharts, and Volumetrica Trading platforms as supported trading platform options.",
+      "Provides an AI-assisted trade review system to help users analyze their trading activity and review performance.",
+      "Includes AIVA, an AI chatbot designed to assist users within the application.",
+      "Integrates Sumsub for identity verification and KYC workflows.",
+      "Uses Kingpay with NMI for payment processing, and Rise and Plaid within the payout workflow.",
+      "Runs on AWS with Docker-based infrastructure and Amazon S3 storage. GitHub Actions automates the configured production deployment pipeline when changes are merged from develop into main."
+    ]
+  },
+  {
+    "id": 2,
     "title": "AthleteRated - Sports Social Platform",
     "description": "A production-grade sports networking ecosystem connecting athletes, coaches, teams, and organizations across web and mobile platforms. The system features real-time chat, interactive social feeds with 2,000+ active posts, team roster management, event scheduling, game scoring, badges, certifications, and multi-tier role-based workflows for subscription-paying users. Developed collaboratively as part of a 4-member engineering team, delivering high-reliability architecture and real-time community engagement.",
     "technologies": [
@@ -27,7 +66,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "Multi Skills Global - Visa Marketplace & Scoring Platform",
     "description": "Multi Skills Global is a fully dynamic multi-vendor visa marketplace where partners and consultants offer specialized immigration services, while applicants browse, purchase, score, and track their visa applications through a centralized platform. Engineered with Laravel, MySQL, and modern JavaScript, the system integrates real-time visa scoring algorithms, end-to-end application tracking, multi-role dashboards, and SMS gateway notifications. It features extensive admin-controlled dynamic customization, allowing non-technical managers to configure UI colors, search placeholders, button styles, footer content, and dashboard menus without modifying source code.",
     "technologies": [
@@ -51,7 +90,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "SG ONLINE TUTOR - AI-Driven Automated Tuition",
     "description": "A fully automated, AI-driven tuition management ecosystem engineered to run educational operations with minimal manual intervention. Powered by OpenAI and WhatsApp-based admin control, the platform automates end-to-end course and session creation, instant Zoom meeting generation, user notifications, and behavior-triggered email marketing based on student activity.",
     "technologies": [
@@ -74,7 +113,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "SRNCON - Social Network & Multi-Vendor E-commerce Platform",
     "description": "SRNCON is a comprehensive digital ecosystem merging an interactive social networking platform, long-form content publishing, and a multi-vendor international e-commerce marketplace. Users can create posts, discover content, like, comment, and share while participating in an engagement-driven reward economy where eligible social activities earn platform points. These accumulated reward points can be converted into USD and withdrawn through a structured payout workflow, directly monetizing genuine community engagement. Simultaneously, the platform powers global commerce through a multi-vendor store architecture featuring international product selling and dynamic multi-currency pricing.",
     "technologies": [
@@ -98,7 +137,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "ELOUISA WEB APPLICATION",
     "description": "Designed and developed a highly scalable content delivery web application architecture for cross-platform Movies, TV Shows, Radio, and Live TV. Built a robust multi-role admin engine with custom permission guards and implemented clean, optimized RESTful APIs to maintain seamless, high-performance web and mobile views with minimal loading latencies.",
     "technologies": ["PHP", "Laravel", "RESTful APIs", "MySQL", "Bootstrap 5", "JavaScript", "jQuery", "AJAX"],
@@ -110,7 +149,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "TIJARAH - Admin Console",
     "description": "Engineered a robust enterprise-grade Admin Console for the TIJARA Business Management application. Designed and deployed a secure, granular 7-tier role-based access control (RBAC) architecture to govern critical administration features. Built dynamic dashboard analytics layers and handled high-density dataset processing utilizing Server-side DataTables and optimized MySQL queries.",
     "technologies": ["PHP", "Laravel", "MySQL", "Tailwind CSS", "Firebase", "AJAX", "DataTables", "jQuery"],

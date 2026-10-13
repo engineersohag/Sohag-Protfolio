@@ -5,8 +5,9 @@ import ProjectDetailsModal from './ProjectDetailsModal';
 import SectionHeader from '../../Components/SectionHeader/SectionHeader';
 // eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
-const Projects = () => {
+const Projects = ({ showAllProjects = false }) => {
     const [projects, setProjects] = useState([]);
     const [loading, setLoading] = useState(true);
     const [selectedProject, setSelectedProject] = useState(null);
@@ -30,14 +31,23 @@ const Projects = () => {
             transition: { staggerChildren: 0.15 }
         }
     };
+    const displayedProjects = showAllProjects ? projects : projects.slice(0, 6);
 
     return (
         <div className='mx-2 md:mx-0'>
             {/* Header Section */}
             <SectionHeader 
-                title="Featured Projects"
-                subtitle="Showcasing My Best Work"
+                title={showAllProjects ? "All Projects" : "Featured Projects"}
+                subtitle={showAllProjects ? "Explore My Work" : "Showcasing My Best Work"}
             />
+
+            {showAllProjects && (
+                <div className="mb-8 text-center">
+                    <Link to="/" className="btn btn-outline btn-primary">
+                        Back to Portfolio
+                    </Link>
+                </div>
+            )}
 
             <motion.div 
                 className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
@@ -47,7 +57,7 @@ const Projects = () => {
                 viewport={{ once: true, amount: 0.1 }}
             >
                 {
-                    projects?.map(project =>
+                    displayedProjects.map(project =>
                         <SingleProject
                             key={project.id}
                             project={project}
@@ -59,6 +69,13 @@ const Projects = () => {
                     )
                 }
             </motion.div>
+            {!showAllProjects && (
+                <div className="mt-10 text-center">
+                    <Link to="/projects" className="btn btn-primary">
+                        View All Projects
+                    </Link>
+                </div>
+            )}
             {modalOpen && (
                 <ProjectDetailsModal
                     project={selectedProject}
