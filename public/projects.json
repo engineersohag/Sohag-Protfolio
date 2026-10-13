@@ -138,6 +138,33 @@
   },
   {
     "id": 6,
+    "title": "Write & Raise",
+    "description": "Write & Raise helps schools organize fundraising events that engage students in donation-driven activities. Students can participate in eligible activities, create artwork, and support school campaigns, while donors contribute to the fundraising effort. The platform coordinates donor-related artwork fulfillment, including shipping through its configured FedEx integration. Separate Admin, School, Teacher, and Student dashboards support role-specific fundraising and educational workflows, alongside Stripe donation processing and a Content Library. Built with Laravel, PHP, and MySQL, it brings school administration, student participation, donations, and donor fulfillment together.",
+    "technologies": [
+      "Education Technology (EdTech)",
+      "School Fundraising",
+      "Student Participation",
+      "Donation Management",
+      "Artwork Fulfillment",
+      "Four Role-Based Dashboards",
+      "Stripe",
+      "FedEx API Integration",
+      "Content Library",
+      "Laravel",
+      "PHP",
+      "MySQL"
+    ],
+    "image": "/project/writeraise.png",
+    "liveLink": "https://writeandraise.com/",
+    "challenges": [
+      "Enables schools to organize fundraising events and manage student participation in designated activities that help collect donations.",
+      "Supports student artwork creation as part of eligible activities and coordinates donor-related artwork fulfillment through the configured shipping workflow.",
+      "Provides separate Admin, School, Teacher, and Student dashboards for the different roles and workflows involved in fundraising and educational activities.",
+      "Integrates Stripe for donation/payment processing, FedEx for related shipping workflows, and a Content Library for educational or activity-related content."
+    ]
+  },
+  {
+    "id": 7,
     "title": "ELOUISA WEB APPLICATION",
     "description": "Designed and developed a highly scalable content delivery web application architecture for cross-platform Movies, TV Shows, Radio, and Live TV. Built a robust multi-role admin engine with custom permission guards and implemented clean, optimized RESTful APIs to maintain seamless, high-performance web and mobile views with minimal loading latencies.",
     "technologies": ["PHP", "Laravel", "RESTful APIs", "MySQL", "Bootstrap 5", "JavaScript", "jQuery", "AJAX"],
@@ -149,7 +176,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "TIJARAH - Admin Console",
     "description": "Engineered a robust enterprise-grade Admin Console for the TIJARA Business Management application. Designed and deployed a secure, granular 7-tier role-based access control (RBAC) architecture to govern critical administration features. Built dynamic dashboard analytics layers and handled high-density dataset processing utilizing Server-side DataTables and optimized MySQL queries.",
     "technologies": ["PHP", "Laravel", "MySQL", "Tailwind CSS", "Firebase", "AJAX", "DataTables", "jQuery"],
